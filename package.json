@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "mazi-simulador-service",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/src/functions/*.js",
+  "description": "Backend simulador financiero",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -20,7 +20,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "18.x",
+    "@types/node": "^18.x",
     "azure-functions-core-tools": "^4.x",
     "rimraf": "^5.0.0",
     "typescript": "^5.0.0"
